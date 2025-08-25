@@ -102,7 +102,7 @@ export default function Projects() {
             <AnimatedSection delay={0.5}>
               <motion.div whileHover={{ scale: 1.03, y: -5 }} transition={{ type: "spring", stiffness: 200 }}>
                 <Card className="shadow-lg border-0 h-100">
-                  <Card.Img variant="top" src="/projects/robot-car.jpg" alt="Hand Gesture Robot Car" />
+                  <Card.Img variant="top" src="/public/projects/robot-car.JPG" alt="Hand Gesture Robot Car" />
                   <Card.Body>
                     <h5 className="fw-bold">🤖🚗 Hand Gesture Controlled Robot Car</h5>
                     <div className="mb-2">
@@ -179,3 +179,4 @@ export default function Projects() {
     </section>
   );
 }
+
