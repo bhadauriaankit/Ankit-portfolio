@@ -135,7 +135,7 @@ export default function Hero() {
                 >
                   Email
                 </Button>
-                <a href="/resume.pdf" download className="btn btn-success fw-bold">
+                <a href="/Resume_ankit_singh.pdf" download className="btn btn-success fw-bold">
                   📄 Download Resume
                 </a>
               </div>
@@ -170,3 +170,4 @@ export default function Hero() {
     </section>
   );
 }
+
