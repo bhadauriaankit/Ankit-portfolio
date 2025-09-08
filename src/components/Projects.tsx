@@ -44,6 +44,42 @@ export default function Projects() {
             </AnimatedSection>
           </Col>
 
+{/*           code assistant */}
+          <Col md={6} className="mb-4">
+            <AnimatedSection delay={0.3}>
+              <motion.div whileHover={{ scale: 1.03, y: -5 }} transition={{ type: "spring", stiffness: 200 }}>
+                <Card className="shadow-lg border-0 h-100">
+                  <Card.Img variant="top" src="/projects/review.jpg" alt=" AI-Powered Code Review Assistant " />
+                  <Card.Body>
+                    <h5 className="fw-bold">🤖 AI-Powered Code Review Assistant</h5>
+                    <div className="mb-2"> 
+
+                      <Badge bg="secondary" className="me-1">Python</Badge>
+                      <Badge bg="danger" className="me-1"> LangChain</Badge>
+                      <Badge bg="info" className="me-1">Google Generative AI (Gemini)</Badge>
+                      <Badge bg="dark">Hugging Face Spaces</Badge>
+                      <Badge bg="dark">Gradio</Badge>
+                      <Badge bg="dark">Radon</Badge>
+                      <Badge bg="dark">AST</Badge>
+                      {/* <Badge bg="dark">Google Colab</Badge> */}
+                    </div>
+                    <p>
+                     Developed an AI-powered Code Review Assistant that analyzes Python code using AST.
+                    </p>
+                   <div className="d-flex gap-2">
+                      <a href="https://huggingface.co/spaces/bhadauria/review" target="_blank" className="btn btn-primary btn-sm d-flex align-items-center gap-1">
+                        <FaGlobe /> Live Demo
+                      </a>
+                      <a href="https://github.com/bhadauriaankit/Review-Assistant" target="_blank" className="btn btn-dark btn-sm d-flex align-items-center gap-1">
+                        <FaGithub /> GitHub
+                      </a>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </motion.div>
+            </AnimatedSection>
+          </Col>
+
           {/* Project 2 - Underwater Image Enhancement */}
           <Col md={6} className="mb-4">
             <AnimatedSection delay={0.3}>
@@ -179,4 +215,5 @@ export default function Projects() {
     </section>
   );
 }
+
 
