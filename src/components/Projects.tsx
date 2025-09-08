@@ -49,7 +49,7 @@ export default function Projects() {
             <AnimatedSection delay={0.3}>
               <motion.div whileHover={{ scale: 1.03, y: -5 }} transition={{ type: "spring", stiffness: 200 }}>
                 <Card className="shadow-lg border-0 h-100">
-                  <Card.Img variant="top" src="/projects/review.jpg" alt=" AI-Powered Code Review Assistant " />
+                  <Card.Img variant="top" src="/projects/review.png" alt=" AI-Powered Code Review Assistant " />
                   <Card.Body>
                     <h5 className="fw-bold">🤖 AI-Powered Code Review Assistant</h5>
                     <div className="mb-2"> 
@@ -215,5 +215,6 @@ export default function Projects() {
     </section>
   );
 }
+
 
 
